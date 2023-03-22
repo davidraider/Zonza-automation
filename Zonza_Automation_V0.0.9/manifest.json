@@ -1,0 +1,21 @@
+{
+"manifest_version": 3,
+"name" :"Zonza Automation",
+"description":"Automation tool for (Single or Bulk) Autofilling data in Zonza. And Generate Mail for Producers.Get path from Zonza link(Supported for Edge and Chrome)",
+"version": "0.0.9",
+"action": {
+    "default_popup": "popup.html"
+},
+"icons":{
+    "16":"./Black/Icon_16x16.png",
+    "32":"./Black/Icon_32x32.png",
+    "48":"./Black/Icon_48x48.png",
+    "128":"./Black/Icon_128x128.png"
+},
+"permissions":[
+    "tabs","scripting","storage","unlimitedStorage"
+],
+"host_permissions":[
+    "https://hogarthww.zonza.tv/*","*://*/*"
+]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://css.gg/chevron-double-down-r.css' rel='stylesheet'>
+  <link href='https://css.gg/close-r.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Zonza Automation V 0.0.7</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body class ="Bodycolorblack" style="width: 330px;">
+ 
+  <div>
+    
+        <button class="modebutton" id="Logobutton"></button>
+        <h1 class = "texttitle" id="changetext" style="color: rgb(255, 255, 255);">Zonza Automation</h1>
+   </div>
+   <ul class = "tabs" style ="color: #fff">
+    <li data-tab-target="#Easy" class = "tab1 active" id = "switcheasy">Easy</li>
+    <li data-tab-target="#Hard" class = "tab1" id = "switchhard">Hard</li>
+  </ul>
+  <div class="tab-container">
+      <div id="Easy" data-tab-content class = "active">
+      <div class="CollectionForm colorblack">
+        <div class="Subtitle" style="color: #ffffff;">AutoFill</div>
+        <button class="button" id="fillbutton">Fill it!</button>
+      </div>
+      <div class="CollectionForm colorblack">
+        <div class="Subtitle" style="color: #ffffff;">Get Path<sup style = "font-size: 8px;"> Beta</sup></div>
+        <div class = "Macpath" id ="macpathdisplay" style ="color: #fff ; padding-top: 5px;">Click to Load Path (ONLY for Broadcast_Sync)</div>
+         <button class="Getpath" id="getPathButton">Get</button>
+      </div>
+      <div class="CollectionForm colorblack">
+       <div class="Subtitle" style="color: #ffffff;">Mail Generate<div class="countdown" id="countdownplace"><<<< 0 >>>></div></div>
+       <button class="buttontwo" id="mailbutton">Copy</button>
+       <div class="mailtext" id = "getmailtext"style ="color: #fff;">
+      </div>
+      
+      <div class="buttonactive" id="buildbutton" style="display: none;">
+      <button class="buttonthree" id="buildtab" >Build</button>
+      </div>
+    </div>
+      </div>
+  <div id="Hard" data-tab-content>
+      <div class="CollectionForm colorblack">
+        <div class="Subtitle" style="color: #ffffff;">autofill all</div>
+        <button class="button" id="fillbulkbutton">Fire all!</button>
+      </div>
+      <div class="CollectionForm colorblack">
+        <div class="Subtitle" style="color: #ffffff;">Mail Generate (bulk)<div class="countdown" id="countdownplacebulk"><<<< 0 >>>></div></div>
+        <button class="buttontwo" id="mailbulkbutton">Avengers</button>
+        <div class="mailtext" id = "getbulkmailtext"style ="color: #fff;">
+     
+       </div>
+       <div class="buttonactive" id="buildbulkbutton" style="display: none;">
+       <button class="buttonthree" id="buildbulktab" >Assemble</button>
+       </div>
+     
+    </div>
+    
+  </div>
+  <i class="gg-chevron-double-down-r" id ="myBtn" style="display: none;"></i>
+  <i class="gg-close-r" id ="mycloseBtn" style="display: none;"></i>
+</div> 
+</body>
+<script src = "script.js"></script>
+<script src = "popup.js"></script>
+</html>
